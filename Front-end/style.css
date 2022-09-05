@@ -1,0 +1,71 @@
+body{
+    font-family:  sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  transition: background 2s linear ;
+}
+
+.wrapper-btn:hover .fa-stack{
+    transition: 0.9s;
+    transform: rotateY(180deg);
+    cursor: pointer;
+    
+}
+.wrapper-btn .fa-stack {
+    transition: 0.9s;
+    margin: 15px;
+}
+
+.wrapper-btn{
+    /* border: #fff solid 1px; */
+    overflow: hidden;
+    text-align: center;
+    color: #fff;
+}
+
+.background-darker{
+
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.425);
+}
+
+.page-settings {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.img {
+    width: 100%;
+    top: 0;
+    transition: opacity 1s ease-in;
+    opacity: 0;
+}
+
+
+
+.ml3 {
+    font-size: 3rem;
+    font-weight: bolder;
+    color: #FFF;
+  }
+
+  #main-nav {
+    opacity: 0;
+    transition: all 1s ease;
+  }
+
+  .move-logo {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 150px;
+  }

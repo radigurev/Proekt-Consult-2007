@@ -1,0 +1,17 @@
+.wrapper-btn:hover .fa-stack{
+    transition: 0.9s;
+    transform: rotateY(180deg);
+    cursor: pointer;
+}
+.wrapper-btn .fa-stack {
+    transition: 0.9s;
+}
+
+.wrapper-btn{
+    /* border: #fff solid 1px; */
+    overflow: hidden;
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+    transition: 1s;
+}

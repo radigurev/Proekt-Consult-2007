@@ -1,0 +1,14 @@
+body {
+  font-family: -apple-system,sans-serif, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 100vw;
+  height: 100vh;
+}
+
+#root {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100vw;
+  transition: top 2s ease, width 2s ease;
+}

@@ -1,0 +1,33 @@
+.display-none {
+    display: none;
+}
+
+#location {
+    background-color: rgba(0, 0, 0, 0.397);
+    position: absolute;
+    border-radius: 15px;
+    transition: left 1s ease;
+    left: -200%;
+    float: right;
+}
+
+.serviceImg {
+   width: 25%;
+   padding-left: 0!important;
+   vertical-align: left;
+}
+#location p {
+    color: #fff;
+    text-align: center;
+}
+#location h6 {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 2rem;
+    font: bold;
+    font-weight: 600;
+    text-align: center;
+}
+/* .row >* {
+    padding-left: 0!important;
+} */

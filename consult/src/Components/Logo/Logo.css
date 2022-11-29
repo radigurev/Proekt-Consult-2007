@@ -1,0 +1,13 @@
+#ml3 {
+    font-weight: 900;
+    font-size: 3.5em;
+    transition: font-size 2s ease;
+    color: rgba(255, 255, 255, 0.678);
+  }
+
+  .img {
+    width: 100%;
+    top: 0;
+    transition: opacity 1s ease-in;
+    opacity: 0;
+}

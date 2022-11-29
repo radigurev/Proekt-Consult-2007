@@ -1,0 +1,13 @@
+
+/* .height-zero {
+    height: 0!important;
+} */
+
+#body-div {
+    height: 0;
+    transition: left 1s ease;
+}
+
+.disabled {
+    display: none;
+}

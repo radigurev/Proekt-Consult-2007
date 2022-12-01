@@ -4,6 +4,7 @@ import $ from "jquery";
 import "./Location.css";
 
 function Location(props) {
+  
   useEffect(() => {
     if (props.show) {
       setTimeout(function () {

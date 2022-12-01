@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 import Location from "./Location/Location";
+import Contact from './Contact/Contact';
 
 import './Body.css';
 import $ from 'jquery';
@@ -17,8 +18,10 @@ function Body(props) {
 
     if(props.windowType === 'location') setLocation(true);
     else setLocation(false);
+    if(props.windowType === 'contact') setContact(true);
+    else setContact(false);
 
-    if (location) {
+    if (location || contact) {
         setTimeout(function () {
           $("#body-div").removeClass("disabled");
         }, 1000);
@@ -28,7 +31,9 @@ function Body(props) {
         }, 1000);
       }
 
-  }, [props.windowType,location]);
+      console.log(location);
+      console.log(contact);
+  }, [props.windowType,location,contact]);
 
   function moveMenu(shouldMove) {
     if(shouldMove)
@@ -39,6 +44,7 @@ function Body(props) {
   return (
     <div id="body-div" className="disabled height-zero">
         <Location show={location} />
+        <Contact show={contact}/>
     </div>
   )
 }

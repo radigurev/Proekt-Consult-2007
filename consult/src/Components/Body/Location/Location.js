@@ -22,23 +22,31 @@ function Location(props) {
 
 //Изработване на проекти по част конструктивна, BIM проектиране, Контрол по време на строителство
 
-  return <div id="location" className="display-none">
-   <div>
+  return <div id="location" className="display-none row">
+  <div className="col-4">
+  <div>
    <img className="serviceImg" align='left' src="https://res.cloudinary.com/dzqj0bike/image/upload/v1646822505/ProektConsult2007/ruhouse/ruhouse-pic1_tm2okh.jpg" />
    </div>
-   
     <div>
       <h6>Изработване на проекти по част конструктивна</h6>
-      <p> adasdasdasasd asdas dasd asd</p>
     </div>
-     <div >
+  </div>
+  <div className="col-4">
+  <div>
+   <img className="serviceImg" align='left' src="https://res.cloudinary.com/dzqj0bike/image/upload/v1646822505/ProektConsult2007/ruhouse/ruhouse-pic1_tm2okh.jpg" />
+   </div>
+    <div>
       <h6>BIM проектиране</h6>
-      <p> adasdasdasasd asdas dasd asd</p>
     </div>
-   <div >
+  </div>
+  <div className="col-4">
+  <div>
+   <img className="serviceImg" align='left' src="https://res.cloudinary.com/dzqj0bike/image/upload/v1646822505/ProektConsult2007/ruhouse/ruhouse-pic1_tm2okh.jpg" />
+   </div>
+    <div>
       <h6>Контрол по време на строителство</h6>
-      <p> adasdasdasasd asdas dasd asd</p>
     </div>
+  </div>
   </div>;
 }
 

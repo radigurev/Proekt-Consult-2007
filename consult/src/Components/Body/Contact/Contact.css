@@ -1,0 +1,13 @@
+.display-none {
+    display: none;
+}
+
+#contact {
+    background-color: rgba(0, 0, 0, 0.397);
+    position: absolute;
+    border-radius: 15px;
+    transition: left 1s ease;
+    width: 100%;
+    left: -200%;
+    float: right;
+}
